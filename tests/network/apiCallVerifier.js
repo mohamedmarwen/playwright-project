@@ -1,5 +1,3 @@
-const { expect } = require('@playwright/test');
-
 // Cette classe surveiller les appels API dans une page web
 class ApiCallVerifier {
   constructor(page) {
