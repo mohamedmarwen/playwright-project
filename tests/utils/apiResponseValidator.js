@@ -1,5 +1,4 @@
 // tests/utils/apiResponseValidator.js
-
 async function validateApiResponseStatus(page, endpointPart, {
   expectedStatus = 200,
   expectedKeys = {}
