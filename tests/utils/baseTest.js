@@ -10,5 +10,4 @@ const test = base.extend({
     await use(new ProfilePage(page));
   },
 });
-
 module.exports = { test };
