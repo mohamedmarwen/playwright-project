@@ -1,0 +1,237 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Welcome to the Jungle logo":
+    - /url: /fr
+    - img "Welcome to the Jungle logo"
+  - navigation "main navigation":
+    - list:
+      - listitem:
+        - link "Trouver un job":
+          - /url: /fr/jobs
+          - paragraph: Trouver un job
+      - listitem:
+        - link "Trouver une entreprise":
+          - /url: /fr/companies
+          - paragraph: Trouver une entreprise
+      - listitem:
+        - link "Média":
+          - /url: /fr/media
+          - paragraph: Média
+  - textbox "Cherchez un job, une entreprise, un article"
+  - text: 
+  - link "Candidatures":
+    - /url: /fr/me/application-tracker
+    - paragraph: Candidatures
+  - link "Opportunités":
+    - /url: /fr/me/recruiter-proposals
+    - paragraph: Opportunités
+  - button "Marwen Mon espace ":
+    - img "Marwen":
+      - img "Marwen"
+    - paragraph: Mon espace 
+- main:
+  - heading "Mon statut" [level=4]
+  - paragraph: Faites savoir aux entreprises si elles peuvent vous contacter.
+  - combobox:
+    - paragraph: Non disponible
+    - paragraph: Je ne souhaite pas recevoir d'opportunités de la part des entreprises.
+    - button "open menu":
+      - img
+  - text: 
+  - paragraph: Ajoutez votre entreprise actuelle dans votre profil pour pouvoir lui masquer votre statut.
+  - navigation:
+    - list:
+      - listitem:
+        - link "Informations personnelles":
+          - /url: /fr/me/profile/information
+      - listitem:
+        - link "Job recherché":
+          - /url: /fr/me/profile/next-job
+      - listitem:
+        - link "Expériences":
+          - /url: /fr/me/profile/experiences
+      - listitem:
+        - link "Compétences & expertises":
+          - /url: /fr/me/profile/skills
+      - listitem:
+        - link "Diplômes & formations":
+          - /url: /fr/me/profile/education
+      - listitem:
+        - link "Autres ressources":
+          - /url: /fr/me/profile/assets
+  - text: 
+  - heading "Complétez votre profil avec votre CV" [level=4]
+  - paragraph: Vos expériences, vos compétences et votre formation seront ajoutées à votre profil depuis votre CV.
+  - paragraph: Faites-vous repérer par les entreprises
+  - paragraph: Recevez tous les jours des suggestions d'offres
+  - paragraph: Postulez plus rapidement
+  - button " Télécharger mon CV"
+  - img "Marwen":
+    - img "Marwen"
+  - heading "Marwen" [level=3]
+  - text: Presque complet
+  - paragraph: Titre du profil non renseigné
+  - button " Modifier" [expanded]
+  - text:  tej.marwen@gmail.com  Non renseigné  Pas membre Jungle Club
+  - button ""
+  - text:  Non renseigné  Homme
+  - heading "Job recherché" [level=3]
+  - text: Presque complet
+  - paragraph: Dites-en plus aux recruteurs sur le job que vous recherchez.
+  - button " Modifier"
+  - text: Intitulé de poste QA Engineer Lieu de travail souhaité  Paris, France Type de contrat  CDI Télétravail  Télétravail fréquent Niveau d'expérience  5-10 ans Salaire minimum Non renseigné Exprimez librement ce que vous cherchez Non renseigné
+  - heading "Expériences" [level=3]
+  - text: À compléter
+  - paragraph: Parlez-nous de vos expériences passées et actuelles, de vos projets.
+  - button " Ajouter"
+  - heading "Compétences & expertises" [level=3]
+  - text: À compléter
+  - paragraph: Mettez en avant les compétences et expertises qui vous différencient.
+  - button " Ajouter"
+  - heading "Diplômes & formations" [level=3]
+  - text: À compléter
+  - paragraph: Listez vos diplômes, formations et certifications pertinents.
+  - button " Ajouter"
+  - heading "Autres ressources" [level=3]
+  - text: À compléter
+  - paragraph: Ajoutez des fichiers et des liens pour soutenir et accélérer vos candidatures.
+  - button " Ajouter"
+  - img
+  - paragraph: Complétez rapidement votre profil avec votre CV
+  - text: Vos expériences, vos compétences et votre formation seront ajoutées à votre profil depuis votre CV.
+  - button " Télécharger mon CV"
+- contentinfo:
+  - link "Welcome to the Jungle logo":
+    - /url: /fr
+    - img "Welcome to the Jungle logo"
+  - navigation "social networks navigation":
+    - link "":
+      - /url: https://www.facebook.com/wttj.fr
+    - link "":
+      - /url: https://twitter.com/wttj_fr
+    - link "":
+      - /url: https://www.linkedin.com/company/wttj-fr
+    - link "":
+      - /url: https://www.youtube.com/channel/UCpJfUQ72fmt4qAbkDvz0iNQ
+    - link "":
+      - /url: https://www.instagram.com/welcometothejungle_fr
+  - navigation "about navigation":
+    - text: A propos
+    - list:
+      - listitem:
+        - link "Concept":
+          - /url: /fr/pages/concept
+      - listitem:
+        - link "Qui sommes-nous ?":
+          - /url: /fr/companies/wttj
+      - listitem:
+        - link "Offres d'emploi":
+          - /url: /fr/pages/emploi
+      - listitem:
+        - link "Offres de stage":
+          - /url: /fr/pages/stage
+      - listitem:
+        - link "Centre d'aide":
+          - /url: https://welcometothejunglecandidate.zendesk.com/hc/fr/
+  - navigation "meet us navigation":
+    - text: Nous rencontrer
+    - list:
+      - listitem:
+        - link "Human After All":
+          - /url: https://landings.welcometothejungle.com/fr/human-after-all-2022-global
+      - listitem:
+        - link "Presse":
+          - /url: https://solutions.welcometothejungle.com/presse/
+      - listitem:
+        - link "Jobs":
+          - /url: /fr/companies/wttj/jobs
+      - listitem:
+        - link "Tarifs":
+          - /url: https://solutions.welcometothejungle.com/contact/?utm_source=welcometothejungle.com&utm_medium=referral&utm_campaign=cta_pricing_footer
+      - listitem:
+        - link "Besoin d’aide ?":
+          - /url: https://welcometothejunglecandidate.zendesk.com/hc/fr/requests/new/
+      - listitem:
+        - link "Assistance entreprise":
+          - /url: https://welcometothejungle.zendesk.com/hc/fr/requests/new/
+  - text: La newsletter qui fait le taf
+  - paragraph: Une fois par semaine, des histoires, des jobs et des conseils dans votre boite mail.
+  - textbox "E-mail*"
+  - button "Je m'abonne"
+  - text: Vous pouvez vous désabonner à tout moment. On n'est pas susceptibles, promis. Pour en savoir plus sur notre politique de protection des données,
+  - link "cliquez-ici.":
+    - /url: /fr/pages/privacy-policy
+  - link "Welcome Solutions":
+    - /url: https://solutions.welcometothejungle.com/
+    - img "Welcome Solutions"
+  - link "Employeurs":
+    - /url: https://solutions.welcometothejungle.com/?utm_source=welcometothejungle.com&utm_medium=referral&utm_campaign=cta_become_customer_footer
+  - link "Mon espace employeur":
+    - /url: https://admin.welcometothejungle.com
+  - list:
+    - listitem:
+      - link "Mentions légales":
+        - /url: /fr/pages/legal
+    - listitem:
+      - link "CGU":
+        - /url: /fr/pages/terms
+    - listitem:
+      - link "Politique de confidentialité":
+        - /url: /fr/pages/privacy-policy
+    - listitem:
+      - link "Charte Welcome to the Jungle":
+        - /url: /fr/pages/recruitment-charter
+    - listitem:
+      - link "Politique cookies":
+        - /url: /fr/pages/cookies-policy
+    - listitem:
+      - link "Gestion des cookies":
+        - /url: /fr/me/profile
+  - button "France (FR) "
+- button "Gérez vos préférences en matière de cookies et données personnelles" [disabled]
+- dialog "modals":
+  - button "Dismiss popup"
+  - banner:
+    - button "Close":
+      - img
+    - heading "Informations personnelles" [level=4]
+    - paragraph: Permettez aux entreprises de vous contacter.
+  - text: Photo de profil
+  - button "Choose File"
+  - img
+  - button:
+    - img
+  - button:
+    - img
+  - text: Choisissez une photo où vous avez l’air naturel et souriant, inférieure à 4 Mo. Genre
+  - group:
+    - radio "Je suis une femme"
+    - text: Je suis une femme
+    - radio "Je suis un homme" [checked]
+    - text: Je suis un homme
+    - radio "Je suis non-binaire"
+    - text: Je suis non-binaire
+    - radio
+    - textbox "Je suis..."
+  - text: Prénom*
+  - textbox "Prénom*": Marwen
+  - text: Vous pouvez aussi utiliser un pseudo. Nom
+  - textbox "Nom"
+  - text: Vous pouvez aussi partager seulement vos initiales. E-mail*
+  - textbox: tej.marwen@gmail.com
+  - text: Téléphone
+  - textbox "Téléphone"
+  - text: Date de naissance
+  - textbox "Date de naissance"
+  - text:  Poste actuel
+  - textbox "Poste actuel"
+  - text: Rédigez une phrase courte qui résume votre profil.
+  - checkbox "Jungle Club"
+  - text: Jungle Club J’accepte d’être contacté afin de participer à des sondages, interviews ou tests utilisateurs d’amélioration du produit Welcome to the Jungle.
+  - contentinfo:
+    - button "Enregistrer"
+    - button "Annuler"
+- status
+```
