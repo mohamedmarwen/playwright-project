@@ -1,4 +1,4 @@
-# Test Playwright — Téléversement de photo de profil
+# Test Playwright — Upload photo de profil
 
 Ce projet contient un test E2E automatisé avec Playwright qui simule un scénario utilisateur sur Welcome to the Jungle
 
